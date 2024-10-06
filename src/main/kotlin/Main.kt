@@ -8,6 +8,4 @@ suspend fun main() {
     val response: HttpResponse = client.get("https://ktor.io/")
     println(response.status)
     client.close()
-
-
 }
